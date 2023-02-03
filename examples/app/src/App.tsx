@@ -4,8 +4,7 @@ import { MyComponent } from "@betabandido/another-package";
 function App() {
   return (
     <div>
-      Hello!
-        <MyComponent />
+      <MyComponent />
     </div>
   );
 }
