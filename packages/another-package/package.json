@@ -1,7 +1,6 @@
 {
   "name": "@betabandido/another-package",
   "type": "module",
-  "source": "./src/index.ts",
   "exports": {
     ".": {
       "import": "./dist/esm/index.mjs",
