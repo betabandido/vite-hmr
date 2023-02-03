@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      /* Language and Environment */
+      "jsx": "react",
+      "target": "ESNext",
+      /* Modules */
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "resolveJsonModule": true,
+      /* Emit */
+      "declaration": false,
+      "importHelpers": true,
+      /* Interop Constraints */
+      "allowJs": false,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      /* Type Checking */
+      "strict": true,
+      /* Completeness */
+      "skipLibCheck": true
+    },
+    "exclude": [
+      "node_modules",
+      "packages/*/dist",
+      "packages/*/src/test",
+      "packages/*/src/**/*.test.ts",
+      "packages/*/src/**/*.test.tsx",
+      "packages/*/src/**/*.stories.tsx",
+      "packages/*/node_modules",
+      "packages/*/.eslintrc.cjs",
+      "packages/*/.size-limit.cjs",
+      "packages/*/jest.config.cjs",
+      "packages/*/rollup.config.js"
+    ]
+  }
+  
