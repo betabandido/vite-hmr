@@ -7,15 +7,15 @@ importers:
 
   examples/app:
     specifiers:
+      '@betabandido/another-package': workspace:*
       '@types/react': ^17
       '@types/react-dom': ^17
       '@vitejs/plugin-react': ^3.1.0
-      '@vp/another-package': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       vite: ^4.1.1
     dependencies:
-      '@vp/another-package': link:../../packages/another-package
+      '@betabandido/another-package': link:../../packages/another-package
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
